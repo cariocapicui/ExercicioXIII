@@ -1,0 +1,2 @@
+Em Go o tipo pai compõe o filho ou seja os campos e métodos do pai vão para o filho, mas o filho tem acesso aos metodos do pai e o pai não acessa o filho, na interface permanece a mesma coisa os métodos implementadas no pai terão que ser implementados no filho como em java, porém no construtor você tem que passar o objeto pai.
+No Go não existe moficiadores de acesso tipo getters e setters como em java, você só pode acessar inicializando o objeto do pai, dando a impressao de ser uma herança.
